@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.all {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    font-family: serif;
+    margin-top: 40px;
+}
+
+.input {
+    margin-bottom: 24px;
+}
+
+input {
+    padding: 4px;
+    margin-right: 16px;
+}
+
+.plus {
+    cursor: pointer;
+    padding: 0px 6px;
+    font-size: 1.3rem; 
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+}
+
+.delete span {
+    color: red;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-left: 8px;
+}
+
+.taskArea {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 32px;
+    padding: 16px;
+}
+
+.check {
+    padding: 4px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
