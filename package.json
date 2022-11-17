@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "uuid": "^9.0.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  }
-}
